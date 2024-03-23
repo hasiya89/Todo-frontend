@@ -1,6 +1,6 @@
 /*Add constant variable that holds url for the backend. By default, input field is disabled. */
 
-const BACKEND_ROOT_URL = 'http://localhost:3001'
+const BACKEND_ROOT_URL = 'https://todo-backend-4-oaww.onrender.com'
 import { Todos } from "./class/Todos.js"
 
 const todos = new Todos(BACKEND_ROOT_URL)
